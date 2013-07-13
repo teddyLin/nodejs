@@ -1,0 +1,502 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'dnode' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\tlin\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm 755
+verbose mkdir done: D:\nodejs 755
+verbose caching D:\nodejs\node_modules\connect\package.json
+verbose caching D:\nodejs\node_modules\express\package.json
+verbose caching D:\nodejs\node_modules\ejs\package.json
+verbose cache add [ 'dnode', null ]
+silly cache add: name, spec, args [ undefined, 'dnode', [ 'dnode', null ] ]
+verbose parsed url { pathname: 'dnode', path: 'dnode', href: 'dnode' }
+verbose addNamed [ 'dnode', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'dnode', '', false ]
+verbose raw, before any munging dnode
+verbose url resolving [ 'https://registry.npmjs.org/', './dnode' ]
+verbose url resolved https://registry.npmjs.org/dnode
+verbose etag "75D17RYOWWW334J9OIR1IHP6"
+http GET https://registry.npmjs.org/dnode
+http 304 https://registry.npmjs.org/dnode
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"75D17RYOWWW334J9OIR1IHP6"',
+silly get cb     date: 'Wed, 15 Aug 2012 06:31:20 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag dnode from cache
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm-cache\dnode 755
+silly name, range, hasData 2 [ 'dnode', '', true ]
+silly versions [ 'dnode',
+silly versions   [ '0.2.10',
+silly versions     '0.2.11',
+silly versions     '0.2.12',
+silly versions     '0.2.13',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.9',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.5',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.3.8',
+silly versions     '0.3.9',
+silly versions     '0.3.10',
+silly versions     '0.3.11',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.4.4',
+silly versions     '0.4.5',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.6.4',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.6.8',
+silly versions     '0.6.9',
+silly versions     '0.6.10',
+silly versions     '0.6.11',
+silly versions     '0.6.12',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.5',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.8',
+silly versions     '0.9.9',
+silly versions     '0.9.10',
+silly versions     '0.9.11',
+silly versions     '0.9.12',
+silly versions     '1.0.0',
+silly versions     '1.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '0977cdd2371ed7af9ff3f353acb1a04612880b86',
+verbose bin dist     tarball: 'http://registry.npmjs.org/dnode/-/dnode-1.0.1.tgz' } ]
+verbose caching C:\Users\tlin\AppData\Roaming\npm-cache\dnode\1.0.1\package\package.json
+verbose loadDefaults dnode@1.0.1
+silly resolved [ { name: 'dnode',
+silly resolved     version: '1.0.1',
+silly resolved     description: 'freestyle rpc',
+silly resolved     main: './index.js',
+silly resolved     keywords: [ 'rpc', 'callbacks' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/substack/dnode.git' },
+silly resolved     directories: { lib: '.', examples: './examples' },
+silly resolved     dependencies: { 'dnode-protocol': '~0.2.2', jsonify: '~0.0.0', weak: '~0.2.1' },
+silly resolved     devDependencies: { tap: '~0.2.5', browserify: '~1.13.0' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     browserify: 'browser.js',
+silly resolved     engine: { node: '>=0.6.0' },
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     _id: 'dnode@1.0.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'dnode' } ]
+info into D:\nodejs dnode@1.0.1
+info installOne dnode@1.0.1
+verbose from cache C:\Users\tlin\AppData\Roaming\npm-cache\dnode\1.0.1\package\package.json
+info unbuild D:\nodejs\node_modules\dnode
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\___dnode.npm'
+verbose mkdir done: D:\nodejs\node_modules\___dnode.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\nodejs\node_modules\dnode
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed D:\nodejs\node_modules\___dnode.npm\package
+verbose rm'ed D:\nodejs\node_modules\dnode
+verbose renamed [ 'D:\\nodejs\\node_modules\\___dnode.npm\\package',
+verbose renamed   'D:\\nodejs\\node_modules\\dnode' ]
+verbose caching D:\nodejs\node_modules\dnode\package.json
+verbose loadDefaults dnode@1.0.1
+info preinstall dnode@1.0.1
+verbose from cache D:\nodejs\node_modules\dnode\package.json
+verbose readDependencies: using package.json deps
+verbose from cache D:\nodejs\node_modules\dnode\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'jsonify@~0.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'jsonify@~0.0.0', [ 'jsonify@~0.0.0', null ] ]
+verbose parsed url { pathname: 'jsonify@~0.0.0',
+verbose parsed url   path: 'jsonify@~0.0.0',
+verbose parsed url   href: 'jsonify@~0.0.0' }
+silly cache add: name, spec, args [ 'jsonify', '~0.0.0', [ 'jsonify', '~0.0.0' ] ]
+verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+verbose addNamed [ 'jsonify', '~0.0.0' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'jsonify', '>=0.0.0- <0.1.0-', false ]
+verbose cache add [ 'weak@~0.2.1', null ]
+silly cache add: name, spec, args [ undefined, 'weak@~0.2.1', [ 'weak@~0.2.1', null ] ]
+verbose parsed url { pathname: 'weak@~0.2.1',
+verbose parsed url   path: 'weak@~0.2.1',
+verbose parsed url   href: 'weak@~0.2.1' }
+silly cache add: name, spec, args [ 'weak', '~0.2.1', [ 'weak', '~0.2.1' ] ]
+verbose parsed url { pathname: '~0.2.1', path: '~0.2.1', href: '~0.2.1' }
+verbose addNamed [ 'weak', '~0.2.1' ]
+verbose addNamed [ null, '>=0.2.1- <0.3.0-' ]
+silly name, range, hasData [ 'weak', '>=0.2.1- <0.3.0-', false ]
+verbose cache add [ 'dnode-protocol@~0.2.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'dnode-protocol@~0.2.2',
+silly cache add: name, spec, args   [ 'dnode-protocol@~0.2.2', null ] ]
+verbose parsed url { pathname: 'dnode-protocol@~0.2.2',
+verbose parsed url   path: 'dnode-protocol@~0.2.2',
+verbose parsed url   href: 'dnode-protocol@~0.2.2' }
+silly cache add: name, spec, args [ 'dnode-protocol', '~0.2.2', [ 'dnode-protocol', '~0.2.2' ] ]
+verbose parsed url { pathname: '~0.2.2', path: '~0.2.2', href: '~0.2.2' }
+verbose addNamed [ 'dnode-protocol', '~0.2.2' ]
+verbose addNamed [ null, '>=0.2.2- <0.3.0-' ]
+silly name, range, hasData [ 'dnode-protocol', '>=0.2.2- <0.3.0-', false ]
+verbose raw, before any munging jsonify
+verbose url resolving [ 'https://registry.npmjs.org/', './jsonify' ]
+verbose url resolved https://registry.npmjs.org/jsonify
+verbose etag "F0W4KVAUJ1OHL6Z7JR5AUU6BK"
+http GET https://registry.npmjs.org/jsonify
+verbose raw, before any munging weak
+verbose url resolving [ 'https://registry.npmjs.org/', './weak' ]
+verbose url resolved https://registry.npmjs.org/weak
+verbose etag "47PQV5FPSYC0A7MNEC7K340RD"
+http GET https://registry.npmjs.org/weak
+verbose raw, before any munging dnode-protocol
+verbose url resolving [ 'https://registry.npmjs.org/', './dnode-protocol' ]
+verbose url resolved https://registry.npmjs.org/dnode-protocol
+verbose etag "7L4OFO9CRLJILWJDMG34UY5HF"
+http GET https://registry.npmjs.org/dnode-protocol
+http 304 https://registry.npmjs.org/weak
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"47PQV5FPSYC0A7MNEC7K340RD"',
+silly get cb     date: 'Wed, 15 Aug 2012 06:31:22 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag weak from cache
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm-cache\weak 755
+silly name, range, hasData 2 [ 'weak', '>=0.2.1- <0.3.0-', true ]
+silly versions [ 'weak',
+silly versions   [ '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.2.0',
+silly versions     '0.2.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '20494605c06a185e83ae90e70347fa29866bbe3d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/weak/-/weak-0.2.1.tgz' } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\tlin\\AppData\\Roaming\\npm-cache\\weak\\0.2.1\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\tlin\AppData\Roaming\npm-cache\weak\0.2.1\package\package.json
+verbose loadDefaults weak@0.2.1
+http 304 https://registry.npmjs.org/jsonify
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"F0W4KVAUJ1OHL6Z7JR5AUU6BK"',
+silly get cb     date: 'Wed, 15 Aug 2012 06:31:22 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag jsonify from cache
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm-cache\jsonify 755
+silly name, range, hasData 2 [ 'jsonify', '>=0.0.0- <0.1.0-', true ]
+silly versions [ 'jsonify', [ '0.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '2c74b6ee41d93ca51b7b5aaee8f503631d252a73',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jsonify/-/jsonify-0.0.0.tgz' } ]
+verbose caching C:\Users\tlin\AppData\Roaming\npm-cache\jsonify\0.0.0\package\package.json
+verbose loadDefaults jsonify@0.0.0
+http 304 https://registry.npmjs.org/dnode-protocol
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7L4OFO9CRLJILWJDMG34UY5HF"',
+silly get cb     date: 'Wed, 15 Aug 2012 06:31:27 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag dnode-protocol from cache
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm-cache\dnode-protocol 755
+silly name, range, hasData 2 [ 'dnode-protocol', '>=0.2.2- <0.3.0-', true ]
+silly versions [ 'dnode-protocol',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.9',
+silly versions     '0.0.10',
+silly versions     '0.0.11',
+silly versions     '0.0.12',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '51151d16fc3b5f84815ee0b9497a1061d0d1949d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/dnode-protocol/-/dnode-protocol-0.2.2.tgz' } ]
+verbose caching C:\Users\tlin\AppData\Roaming\npm-cache\dnode-protocol\0.2.2\package\package.json
+verbose loadDefaults dnode-protocol@0.2.2
+silly resolved [ { author: { name: 'Ben Noordhuis', email: 'info@bnoordhuis.nl' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Nathan Rajlich',
+silly resolved          email: 'nathan@tootallnate.net',
+silly resolved          url: 'http://tootallnate.net' } ],
+silly resolved     name: 'weak',
+silly resolved     description: 'Make weak references to JavaScript Objects.',
+silly resolved     keywords: 
+silly resolved      [ 'weak',
+silly resolved        'reference',
+silly resolved        'js',
+silly resolved        'javascript',
+silly resolved        'object',
+silly resolved        'function',
+silly resolved        'callback' ],
+silly resolved     version: '0.2.1',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/TooTallNate/node-weak.git' },
+silly resolved     main: './lib/weak.js',
+silly resolved     scripts: 
+silly resolved      { test: 'mocha -gc --reporter spec',
+silly resolved        preinstall: 'node-waf clean || (exit 0); node-waf configure build' },
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: { bindings: '*' },
+silly resolved     devDependencies: { mocha: '> 0.7.0', should: '*' },
+silly resolved     _id: 'weak@0.2.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'weak@~0.2.1' },
+silly resolved   { name: 'jsonify',
+silly resolved     version: '0.0.0',
+silly resolved     description: 'JSON without touching any globals',
+silly resolved     main: 'index.js',
+silly resolved     directories: { lib: '.', test: 'test' },
+silly resolved     devDependencies: { tap: '0.0.x', garbage: '0.0.x' },
+silly resolved     scripts: { test: 'tap test' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/substack/jsonify.git' },
+silly resolved     keywords: [ 'json', 'browser' ],
+silly resolved     author: { name: 'Douglas Crockford', url: 'http://crockford.com/' },
+silly resolved     license: 'Public Domain',
+silly resolved     _id: 'jsonify@0.0.0',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'jsonify@~0.0.0' },
+silly resolved   { name: 'dnode-protocol',
+silly resolved     description: 'implements the dnode protocol abstractly',
+silly resolved     version: '0.2.2',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/dnode-protocol.git' },
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index.js',
+silly resolved     dependencies: { traverse: '~0.6.3', jsonify: '~0.0.0' },
+silly resolved     devDependencies: { tap: '~0.2.5' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     _id: 'dnode-protocol@0.2.2',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'dnode-protocol@~0.2.2' } ]
+info into D:\nodejs\node_modules\dnode weak@0.2.1
+info into D:\nodejs\node_modules\dnode jsonify@0.0.0
+info into D:\nodejs\node_modules\dnode dnode-protocol@0.2.2
+info installOne weak@0.2.1
+info installOne jsonify@0.0.0
+info installOne dnode-protocol@0.2.2
+verbose from cache C:\Users\tlin\AppData\Roaming\npm-cache\dnode-protocol\0.2.2\package\package.json
+info unbuild D:\nodejs\node_modules\dnode\node_modules\dnode-protocol
+verbose from cache C:\Users\tlin\AppData\Roaming\npm-cache\jsonify\0.0.0\package\package.json
+info unbuild D:\nodejs\node_modules\dnode\node_modules\jsonify
+verbose from cache C:\Users\tlin\AppData\Roaming\npm-cache\weak\0.2.1\package\package.json
+info unbuild D:\nodejs\node_modules\dnode\node_modules\weak
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\dnode\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\dnode\node_modules\___dnode-protocol.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\dnode\node_modules\___weak.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\dnode\node_modules\___jsonify.npm'
+verbose mkdir done: D:\nodejs\node_modules\dnode\node_modules\___dnode-protocol.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\nodejs\node_modules\dnode\node_modules\dnode-protocol
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: D:\nodejs\node_modules\dnode\node_modules\___weak.npm 755
+verbose mkdir done: D:\nodejs\node_modules\dnode\node_modules\___jsonify.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\nodejs\node_modules\dnode\node_modules\weak
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\nodejs\node_modules\dnode\node_modules\jsonify
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed D:\nodejs\node_modules\dnode\node_modules\___jsonify.npm\package
+verbose rm'ed D:\nodejs\node_modules\dnode\node_modules\jsonify
+verbose renamed [ 'D:\\nodejs\\node_modules\\dnode\\node_modules\\___jsonify.npm\\package',
+verbose renamed   'D:\\nodejs\\node_modules\\dnode\\node_modules\\jsonify' ]
+verbose caching D:\nodejs\node_modules\dnode\node_modules\jsonify\package.json
+verbose loadDefaults jsonify@0.0.0
+info preinstall jsonify@0.0.0
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\jsonify\package.json
+verbose readDependencies: using package.json deps
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\jsonify\package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build D:\nodejs\node_modules\dnode\node_modules\jsonify
+info build D:\nodejs\node_modules\dnode\node_modules\jsonify
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\jsonify\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'D:\\nodejs\\node_modules\\dnode\\node_modules' ]
+info linkStuff jsonify@0.0.0
+verbose linkBins jsonify@0.0.0
+verbose linkMans jsonify@0.0.0
+verbose rebuildBundles jsonify@0.0.0
+info install jsonify@0.0.0
+info postinstall jsonify@0.0.0
+verbose installOne cb jsonify@0.0.0
+silly afterUntar ok
+verbose gunzed D:\nodejs\node_modules\dnode\node_modules\___dnode-protocol.npm\package
+verbose rm'ed D:\nodejs\node_modules\dnode\node_modules\dnode-protocol
+verbose renamed [ 'D:\\nodejs\\node_modules\\dnode\\node_modules\\___dnode-protocol.npm\\package',
+verbose renamed   'D:\\nodejs\\node_modules\\dnode\\node_modules\\dnode-protocol' ]
+verbose caching D:\nodejs\node_modules\dnode\node_modules\dnode-protocol\package.json
+verbose loadDefaults dnode-protocol@0.2.2
+info preinstall dnode-protocol@0.2.2
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\dnode-protocol\package.json
+verbose readDependencies: using package.json deps
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\dnode-protocol\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'traverse@~0.6.3', null ]
+silly cache add: name, spec, args [ undefined, 'traverse@~0.6.3', [ 'traverse@~0.6.3', null ] ]
+verbose parsed url { pathname: 'traverse@~0.6.3',
+verbose parsed url   path: 'traverse@~0.6.3',
+verbose parsed url   href: 'traverse@~0.6.3' }
+silly cache add: name, spec, args [ 'traverse', '~0.6.3', [ 'traverse', '~0.6.3' ] ]
+verbose parsed url { pathname: '~0.6.3', path: '~0.6.3', href: '~0.6.3' }
+verbose addNamed [ 'traverse', '~0.6.3' ]
+verbose addNamed [ null, '>=0.6.3- <0.7.0-' ]
+silly name, range, hasData [ 'traverse', '>=0.6.3- <0.7.0-', false ]
+verbose raw, before any munging traverse
+verbose url resolving [ 'https://registry.npmjs.org/', './traverse' ]
+verbose url resolved https://registry.npmjs.org/traverse
+http GET https://registry.npmjs.org/traverse
+silly afterUntar ok
+verbose gunzed D:\nodejs\node_modules\dnode\node_modules\___weak.npm\package
+verbose rm'ed D:\nodejs\node_modules\dnode\node_modules\weak
+verbose renamed [ 'D:\\nodejs\\node_modules\\dnode\\node_modules\\___weak.npm\\package',
+verbose renamed   'D:\\nodejs\\node_modules\\dnode\\node_modules\\weak' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'D:\\nodejs\\node_modules\\dnode\\node_modules\\weak\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching D:\nodejs\node_modules\dnode\node_modules\weak\package.json
+verbose loadDefaults weak@0.2.1
+info preinstall weak@0.2.1
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-waf clean || (exit 0); node-waf configure build"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-waf clean || (exit 0); node-waf configure build' ],
+silly spawning   'D:\\nodejs\\node_modules\\dnode\\node_modules\\weak' ]
+info weak@0.2.1 Failed to exec preinstall script
+ERR! error installing weak@0.2.1
+info unbuild D:\nodejs\node_modules\dnode\node_modules\weak
+verbose from cache D:\nodejs\node_modules\dnode\node_modules\weak\package.json
+info preuninstall weak@0.2.1
+info uninstall weak@0.2.1
+verbose unbuild weak@0.2.1 [ false,
+verbose unbuild weak@0.2.1   'D:\\nodejs\\node_modules',
+verbose unbuild weak@0.2.1   'D:\\nodejs\\node_modules\\dnode\\node_modules' ]
+info postuninstall weak@0.2.1
+verbose installOne cb weak@0.2.1
+verbose about to build D:\nodejs\node_modules\dnode
+ERR! error installing dnode@1.0.1
+info unbuild D:\nodejs\node_modules\dnode
+verbose from cache D:\nodejs\node_modules\dnode\package.json
+info preuninstall dnode@1.0.1
+info uninstall dnode@1.0.1
+verbose unbuild dnode@1.0.1 [ true, 'D:\\nodejs\\node_modules', 'D:\\nodejs\\node_modules' ]
+info postuninstall dnode@1.0.1
+verbose installOne cb dnode@1.0.1
+ERR! weak@0.2.1 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the weak@0.2.1 preinstall script.
+ERR! This is most likely a problem with the weak package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf clean || (exit 0); node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls weak
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "dnode"
+ERR! cwd D:\nodejs\study\sample1
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ELIFECYCLE
+ERR! message weak@0.2.1 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! message `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]

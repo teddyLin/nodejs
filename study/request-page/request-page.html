@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>html5之placeHolde</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="./jquery-1.7.2.js"></script>
+    <style>
+        #ct {
+            position : relative;
+            height : 600px;
+            width : 500px;
+            top : 50px;
+            left : 50px;
+            border : 2px solid #87cefa;
+        }
+
+        #url {
+            width : 200px;
+            height : 17px;
+            border : 1px solid red;
+
+        }
+
+        .urlWrap {
+            top : 10px;
+            left : 5px;
+            position : relative;
+        }
+
+        .reqParams {
+            position : relative;
+            top : 40px;
+            left : 5px;
+            width : 300px;
+            height : 200px;
+            border : 1px solid red;
+        }
+
+        .resParams {
+            position : relative;
+            top : 40px;
+            left : 5px;
+            width : 300px;
+            height : 300px;
+            border : 1px solid green;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function() {
+            var urlInput = $("#url"),
+                    url = urlInput.val(),
+                    btn = $('#submit');
+            var postData = {
+                name : 'teddy',
+                id : 'teddy-id'
+            };
+            var str = JSON.stringify(postData);
+            console.log(str);
+            btn.bind('click', function() {
+                for(var i = 0; i < 1000; ++i) {
+                    $.ajax({
+                        url: url,
+                        dataType : 'json',
+                        type : 'POST',
+                        data : {
+                            params : str
+                        },
+                        success: function(data) {
+                            console.log(JSON.stringify(data));
+                        },
+                        error : function(e) {
+                            console.log(e);
+                        }
+                    });
+                }
+
+            })
+
+
+        });
+    </script>
+</head>
+<body>
+<div id="ct">
+    <div class="urlWrap">
+        url: <input id="url" value="http://127.0.0.1:3000/">
+        <input type="button" id='submit' value="submit">
+    </div>
+    <!-- <textarea class="reqParams"></textarea> -->
+
+    <textarea class="resParams"></textarea>
+</div>
+</body>
+</html>

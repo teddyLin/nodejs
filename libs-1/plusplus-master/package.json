@@ -1,0 +1,23 @@
+{
+  "name": "plusplus",
+  "version": "0.0.13",
+  "description": "I need a better Underscore in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "build": "node bin/build_doc.js & open doc/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/plusplus.git"
+  },
+  "keywords": [
+    "Underscore", "PlusPlus", "Object", "Collection", "Array"
+  ],
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "author": "Jackson Tian",
+  "license": "MIT"
+}

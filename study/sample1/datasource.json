@@ -1,0 +1,20 @@
+{ 
+	¡°development¡±:
+	{ ¡°host¡±: ¡°127.0.0.1¡å
+		, ¡°database¡±: ¡°tujiao¡±
+		, ¡°username¡±: ¡°tujiao¡±
+		, ¡°password¡±: ¡°123456¡å
+	}
+	, ¡°test¡±:
+		{ ¡°host¡±: ¡°127.0.0.1¡å
+		, ¡°database¡±: ¡°tujiao¡±
+		, ¡°username¡±: ¡°tujiao¡±
+		, ¡°password¡±: ¡°123456¡å
+		}
+	, ¡°production¡±:
+		{ ¡°host¡±: ¡°127.0.0.1¡å
+			, ¡°database¡±: ¡°tujiao¡±
+			, ¡°username¡±: ¡°tujiao¡±
+			, ¡°password¡±: ¡°123456¡å
+		}
+}

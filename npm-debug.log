@@ -1,0 +1,160 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'sqlite3' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\tlin\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm 755
+verbose mkdir done: D:\nodejs 755
+verbose caching D:\nodejs\node_modules\connect\package.json
+verbose caching D:\nodejs\node_modules\ejs\package.json
+verbose caching D:\nodejs\node_modules\express\package.json
+verbose cache add [ 'sqlite3', null ]
+silly cache add: name, spec, args [ undefined, 'sqlite3', [ 'sqlite3', null ] ]
+verbose parsed url { pathname: 'sqlite3', path: 'sqlite3', href: 'sqlite3' }
+verbose addNamed [ 'sqlite3', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'sqlite3', '', false ]
+verbose raw, before any munging sqlite3
+verbose url resolving [ 'https://registry.npmjs.org/', './sqlite3' ]
+verbose url resolved https://registry.npmjs.org/sqlite3
+verbose etag "U9DBFI0YT763A3KSIUZ2GYR0"
+http GET https://registry.npmjs.org/sqlite3
+http 304 https://registry.npmjs.org/sqlite3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"U9DBFI0YT763A3KSIUZ2GYR0"',
+silly get cb     date: 'Wed, 15 Aug 2012 05:41:07 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag sqlite3 from cache
+verbose mkdir done: C:\Users\tlin\AppData\Roaming\npm-cache\sqlite3 755
+silly name, range, hasData 2 [ 'sqlite3', '', true ]
+silly versions [ 'sqlite3',
+silly versions   [ '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '2.0.4',
+silly versions     '2.0.5',
+silly versions     '2.0.6',
+silly versions     '2.0.7',
+silly versions     '2.0.8',
+silly versions     '2.0.9',
+silly versions     '2.0.10',
+silly versions     '2.0.11',
+silly versions     '2.0.12',
+silly versions     '2.0.13',
+silly versions     '2.0.14',
+silly versions     '2.0.15',
+silly versions     '2.1.0',
+silly versions     '2.1.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '31cb74d383ac165cdf78a36b6e9bba3655d95d87',
+verbose bin dist     tarball: 'http://registry.npmjs.org/sqlite3/-/sqlite3-2.1.1.tgz' } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\tlin\\AppData\\Roaming\\npm-cache\\sqlite3\\2.1.1\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\tlin\AppData\Roaming\npm-cache\sqlite3\2.1.1\package\package.json
+verbose loadDefaults sqlite3@2.1.1
+silly resolved [ { name: 'sqlite3',
+silly resolved     description: 'Asynchronous, non-blocking SQLite3 bindings',
+silly resolved     version: '2.1.1',
+silly resolved     homepage: 'http://github.com/developmentseed/node-sqlite3',
+silly resolved     author: 
+silly resolved      { name: 'Development Seed',
+silly resolved        email: 'info@developmentseed.org',
+silly resolved        url: 'http://developmentseed.org/' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Konstantin Käfer', email: 'mail@kkaefer.com' },
+silly resolved        { name: 'Dane Springmeyer', email: 'dane@developmentseed.org' },
+silly resolved        { name: 'Will White', email: 'will@developmentseed.org' },
+silly resolved        { name: 'Orlando Vazquez', email: 'ovazquez@gmail.com' },
+silly resolved        { name: 'Artem Kustikov', email: 'kustikoff@gmail.com' },
+silly resolved        { name: 'Eric Fredricksen', email: 'efredricksen@gmail.com' },
+silly resolved        { name: 'John Wright', email: 'mrjjwright@gmail.com' },
+silly resolved        { name: 'Ryan Dahl', email: 'ry@tinyclouds.org' },
+silly resolved        { name: 'Tom MacWright', email: 'tom@developmentseed.org' },
+silly resolved        { name: 'Carter Thaxton', email: 'carter.thaxton@gmail.com' },
+silly resolved        { name: 'Audrius Kažukauskas', email: 'audrius@neutrino.lt' },
+silly resolved        { name: 'Johannes Schauer', email: 'josch@pyneo.org' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/developmentseed/node-sqlite3.git' },
+silly resolved     devDependencies: { step: '0.0.4' },
+silly resolved     engines: { node: '~0.6.0' },
+silly resolved     licenses: [ { type: 'BSD' } ],
+silly resolved     main: './lib/sqlite3',
+silly resolved     _id: 'sqlite3@2.1.1',
+silly resolved     scripts: { preinstall: 'node-waf clean || (exit 0); node-waf configure build' },
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'sqlite3' } ]
+info into D:\nodejs sqlite3@2.1.1
+info installOne sqlite3@2.1.1
+verbose from cache C:\Users\tlin\AppData\Roaming\npm-cache\sqlite3\2.1.1\package\package.json
+info unbuild D:\nodejs\node_modules\sqlite3
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\nodejs\node_modules\___sqlite3.npm'
+verbose mkdir done: D:\nodejs\node_modules\___sqlite3.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\nodejs\node_modules\sqlite3
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed D:\nodejs\node_modules\___sqlite3.npm\package
+verbose rm'ed D:\nodejs\node_modules\sqlite3
+verbose renamed [ 'D:\\nodejs\\node_modules\\___sqlite3.npm\\package',
+verbose renamed   'D:\\nodejs\\node_modules\\sqlite3' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'D:\\nodejs\\node_modules\\sqlite3\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching D:\nodejs\node_modules\sqlite3\package.json
+verbose loadDefaults sqlite3@2.1.1
+info preinstall sqlite3@2.1.1
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-waf clean || (exit 0); node-waf configure build"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-waf clean || (exit 0); node-waf configure build' ],
+silly spawning   'D:\\nodejs\\node_modules\\sqlite3' ]
+info sqlite3@2.1.1 Failed to exec preinstall script
+ERR! error installing sqlite3@2.1.1
+info unbuild D:\nodejs\node_modules\sqlite3
+verbose from cache D:\nodejs\node_modules\sqlite3\package.json
+info preuninstall sqlite3@2.1.1
+info uninstall sqlite3@2.1.1
+verbose unbuild sqlite3@2.1.1 [ true, 'D:\\nodejs\\node_modules', 'D:\\nodejs\\node_modules' ]
+info postuninstall sqlite3@2.1.1
+verbose installOne cb sqlite3@2.1.1
+ERR! sqlite3@2.1.1 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the sqlite3@2.1.1 preinstall script.
+ERR! This is most likely a problem with the sqlite3 package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf clean || (exit 0); node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls sqlite3
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sqlite3"
+ERR! cwd D:\nodejs
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ELIFECYCLE
+ERR! message sqlite3@2.1.1 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! message `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
