@@ -11,3 +11,6 @@ for (var i = 0; i < 26; i++) {
 
 console.log(buf1.toString());
 console.log(buf2.toString());
+
+
+
